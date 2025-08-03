@@ -6,9 +6,10 @@ A secure Flask API for user registration, login, and personal notes management. 
 
 1. [Installation](#installation)
 2. [Running](#running)
-3. [Endpoints](#endpoints)
-4. [Auth Endpoints Response Format](#auth-endpoints-response-format)
-5. [Example `curl` Commands](#example-curl-commands)
+3. [Testing](#testing)
+4. [Endpoints](#endpoints)
+5. [Auth Endpoints Response Format](#auth-endpoints-response-format)
+6. [Example `curl` Commands](#example-curl-commands)
 
 ## Installation
 
@@ -49,6 +50,11 @@ flask run
 ```
 
 ---
+
+## Testing
+
+To run the existing test suite, bash:
+    `pytest`
 
 ## Endpoints
 
